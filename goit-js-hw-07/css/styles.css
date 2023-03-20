@@ -1,0 +1,32 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+#gallery {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  flex-wrap: wrap-reverse;
+  padding: 0;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+.position {
+    text-align: center;
+}
+
+.empty {
+    margin: 20px 0 20px 0;
+}
